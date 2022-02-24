@@ -38,7 +38,7 @@ class ProductosActivity : AppCompatActivity() {
         var contexto: Context?=null
 
         constructor(contexto:Context,producto:ArrayList<Product>){
-            this.productos=productos
+            this.productos=producto
             this.contexto=contexto
         }
 
